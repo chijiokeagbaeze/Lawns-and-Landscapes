@@ -1,0 +1,61 @@
+h1 {
+  text-align: center;
+  color: green;
+}
+
+body {
+  background-color: rgb(255, 255, 200);
+  font-family: Tahoma;
+  font-size: 18px;
+}
+
+fieldset {
+  width: 700px; text-align: justify; background-color:white;
+}
+
+  div {
+    width:75%; margin-left:auto; margin-right:auto;
+  }
+  .details {
+    padding-top:20px; padding-bottom:20px; padding-left:25px; padding-right:25px; max-width:700px;
+  }
+
+  hr {
+    height: 1px;
+    background-color: green;
+    border-color: green; width: 1000px;
+  }
+
+  a {
+    color: black;
+}
+  a:visited {
+    color: grey
+} 
+  a:hover {
+    color: brown;
+} 
+a:active {
+    color: brown;
+}
+
+input[type="text"] {
+  min-height: 1.5em;
+}
+
+input[type="email"] {
+  min-height: 1.5em;
+  width: 48.5%;
+  margin: 0 auto;
+}
+
+input[type="number"] {
+  min-height: 1.5em;
+  margin: 0 auto;
+}
+
+button[type="submit"] {
+  width: 30%;
+  height: 1.5em;
+  font-size: 1rem;
+}
